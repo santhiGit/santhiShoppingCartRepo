@@ -6,5 +6,6 @@ public interface IShoppingCart {
 	public double getProductPrice(String product);
 	public boolean checkProductsAvailable(String purchase);
 	public double checkOutTotal(String purchase);
+	public int getProductQuantity(String product, String purchasedItems);
 
 }
